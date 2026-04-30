@@ -27,3 +27,7 @@ jobs:
 
     - name: List the build artifacts
       run: ls target/*.jar
+
+  
+    - name: Run Tests
+      run: mvn test
